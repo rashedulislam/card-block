@@ -6,26 +6,14 @@ const { registerBlockType } = wp.blocks;
 
 registerBlockType("cgb/block-gutenberg-card-block", {
 	title: __("Card Block"),
-	icon: "shield",
+	icon: "index-card",
 	category: "common",
 	keywords: [__("Card Block"), __("Card")],
 
 	edit: (props) => {
 		return (
 			<div className={props.className}>
-				<p>— Hello from the backend.</p>
-				<p>
-					CGB BLOCK: <code>gutenberg-card-block</code> is a new Gutenberg block
-				</p>
-				<p>
-					It was created via{" "}
-					<code>
-						<a href="https://github.com/ahmadawais/create-guten-block">
-							create-guten-block
-						</a>
-					</code>
-					.
-				</p>
+				<p>Hello From Backend</p>
 			</div>
 		);
 	},
@@ -33,19 +21,7 @@ registerBlockType("cgb/block-gutenberg-card-block", {
 	save: (props) => {
 		return (
 			<div className={props.className}>
-				<p>— Hello from the frontend.</p>
-				<p>
-					CGB BLOCK: <code>gutenberg-card-block</code> is a new Gutenberg block.
-				</p>
-				<p>
-					It was created via{" "}
-					<code>
-						<a href="https://github.com/ahmadawais/create-guten-block">
-							create-guten-block
-						</a>
-					</code>
-					.
-				</p>
+				<p>Hello from the frontend.</p>
 			</div>
 		);
 	},
