@@ -1,1 +1,1 @@
-import "./block/block.js";
+import "./card-block/card-block.js";

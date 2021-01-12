@@ -1,14 +1,14 @@
 <?php
 /**
- * Plugin Name: Gutenberg Card Block
- * Plugin URI: https://rashedul.co/card-block/
+ * Plugin Name: Afia Gutenberg Block
+ * Plugin URI: https://rashedul.co/afia-block/
  * Description: Creating Plugin for learning
  * Author: Md Rashedul Islam
  * Author URI: https://rashedul.co
  * Version: 1.0.0
  * License: GPL2+
  * License URI: https://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain: ra_card_block
+ * Text Domain: afia_block
  **/
 
 // Exit if accessed directly.
